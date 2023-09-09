@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  width: 30%;
+  cursor: pointer;
+  outline: none;
+}
+.event-img {
+  width: 100%;
+}

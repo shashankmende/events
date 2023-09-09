@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.events-container {
+  border: 2px solid red;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.event-items-container {
+  background-image: linear-gradient(to right, #64748b, #323f4b);
+  width: 60%;
+  border: 2px solid red;
+}
+
+.event-heading {
+  color: white;
+}
+
+.unordered-list-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bg-color {
+  background-color: red;
+}
+
+.event-heading {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.eventClass {
+  border: 3px solid #0967d2;
+}
+
+.right-container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  width: 40%;
+  flex-grow: 1;
+}
+
+.closed-img {
+  width: 30%;
+}
+
+.register-button {
+  background-color: #0967d2;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+}
+
+.yet-to-register-img {
+  width: 30%;
+}
